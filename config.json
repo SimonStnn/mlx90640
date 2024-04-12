@@ -1,0 +1,43 @@
+{
+    "default": {
+        "attempts": 10,
+        "crop": {
+            "x1": 0,
+            "y1": 0,
+            "x2": 32,
+            "y2": 24
+        },
+        "offset": 0,
+        "outlier_threshold": 1.5,
+        "threshold": [
+            -40,
+            300
+        ],
+        "alerts": [
+            {
+                "max": 0,
+                "name":"Maximum alert"
+            }
+        ]
+    },
+    "sensors": [
+        {
+            "addr": 51
+        },
+        {
+            "addr": "0x34"
+        },
+        {
+            "addr": "0x35"
+        },
+        {
+            "addr": "0x36"
+        },
+        {
+            "addr": "0x37"
+        },
+        {
+            "addr": "0x38"
+        }
+    ]
+}

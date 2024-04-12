@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mlx90640"
+version = "0.1.0"
+requires-python = ">=3.10"
+authors = [{ name = "Simon Stijnen" }]
+readme = "README.md"
+dependencies = [
+    "ruptures==1.1.9",
+    "numpy==1.26.4",
+    "matplotlib==3.8.4",
+    "mlx9064x-driver==1.3.0",
+    "pyserial==3.5",
+]
+
+[tool.setuptools]
+packages = ["mlx90640"]
